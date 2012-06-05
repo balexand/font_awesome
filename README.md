@@ -41,7 +41,7 @@ The versioning of this gem tracks the versioning of Font Awesome starting at 2.0
 I've made the following minimal changes the Font Awesome code:
 
 1. Use the `asset_path` helper so that assets are loaded from the correct path and digests are generated.
-2. Remove the `svgz` font declaration until the Font Awesome maintainer adds the file ([see issue](https://github.com/FortAwesome/Font-Awesome/issues/233)).
+2. ~~Remove the `svgz` font declaration until the Font Awesome maintainer adds the file ([see issue](https://github.com/FortAwesome/Font-Awesome/issues/233)).~~
 
 ## Contributing
 
