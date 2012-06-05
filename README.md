@@ -1,6 +1,6 @@
 # FontAwesome
 
-Font Awesome for Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests using the `asset_path` method.
+Font Awesome for the Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests using the `asset_path` method.
 
 ## Installation
 

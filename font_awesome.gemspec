@@ -4,8 +4,8 @@ require File.expand_path('../lib/font_awesome/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Brian Alexander"]
   gem.email         = ["balexand@gmail.com"]
-  gem.description   = %q{Font Awesome for Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests.}
-  gem.summary       = %q{Font Awesome for Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests.}
+  gem.description   = %q{Font Awesome for the Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests.}
+  gem.summary       = %q{Font Awesome for the Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests.}
   gem.homepage      = "https://github.com/balexand/font_awesome"
 
   gem.files         = `git ls-files`.split($\)
