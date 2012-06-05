@@ -32,6 +32,17 @@ Then insert an icon in your HTML:
 
 Check out the [Font Awesome website](http://fortawesome.github.com/Font-Awesome/) for details.
 
+## Versioning
+
+The versioning of this gem tracks the versioning of Font Awesome starting at 2.0.
+
+## Modifications
+
+I've made the following minimal code the Font Awesome code:
+
+1. Use the `asset_path` helper so that assets are loaded from correct path and digests are generated.
+2. Remove the `svgz` font file until the Font Awesome maintainer adds the file ([see issue](https://github.com/FortAwesome/Font-Awesome/issues/233)).
+
 ## Contributing
 
 1. Fork it
