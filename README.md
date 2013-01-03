@@ -10,6 +10,12 @@ Add this line to your application's Gemfile:
 gem 'font_awesome'
 ```
 
+Or if you prefer Font Awesome 2.0, use:
+
+```ruby
+gem 'font_awesome', '~> 2.0'
+```
+
 And then execute:
 
     $ bundle
@@ -34,7 +40,7 @@ Check out the [Font Awesome website](http://fortawesome.github.com/Font-Awesome/
 
 ## Versioning
 
-The versioning of this gem tracks the versioning of Font Awesome starting at 2.0.
+The versioning of this gem tracks the versioning of Font Awesome starting at 2.0. Currently, the master branch is on 3.0.
 
 ## Modifications
 
