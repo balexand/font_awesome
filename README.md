@@ -7,7 +7,7 @@ Font Awesome for the Rails asset pipeline. Doesn't depend on SASS or LESS and pr
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'font_awesome'
+gem 'font_awesome', '~> 3.0'
 ```
 
 Or if you prefer Font Awesome 2.0, use:
