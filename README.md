@@ -40,7 +40,7 @@ Check out the [Font Awesome website](http://fortawesome.github.com/Font-Awesome/
 
 ## Versioning
 
-The versioning of this gem tracks the versioning of Font Awesome starting at 2.0. Currently, the master branch is on 3.0.
+The versioning of this gem roughly tracks the versioning of Font Awesome starting at 2.0. In order to accomodate patches to this gem that don't package a new version of Font Awesome, versions are calculated [like this](https://github.com/balexand/font_awesome/blob/master/lib/font_awesome/version.rb). For example, version `3.1.0` of this gem packages Font Awesome `3.0.1`.
 
 ## Modifications
 
