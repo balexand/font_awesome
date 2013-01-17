@@ -2,7 +2,7 @@ module FontAwesome
   # major, minor, and build numbers from Font Awesome assets
   ASSET_MAJOR_VERSION  = 3
   ASSET_MINOR_VERSION  = 0
-  ASSET_BUILD_NUMBER   = 1
+  ASSET_BUILD_NUMBER   = 2
 
   # build number to be incremented when I release a fix for this gem without packaging a new Font Awesome release
   GEM_BUILD_NUMBER = 0
