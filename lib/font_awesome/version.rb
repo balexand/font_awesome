@@ -5,7 +5,7 @@ module FontAwesome
   ASSET_BUILD_NUMBER   = 2
 
   # build number to be incremented when I release a fix for this gem without packaging a new Font Awesome release
-  GEM_BUILD_NUMBER = 0
+  GEM_BUILD_NUMBER = 1
 
   # version number for the gemspec
   VERSION = "#{ASSET_MAJOR_VERSION}.#{ASSET_MINOR_VERSION * 100 + ASSET_BUILD_NUMBER}.#{GEM_BUILD_NUMBER}"
