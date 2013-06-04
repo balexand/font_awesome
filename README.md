@@ -1,58 +1,9 @@
-# FontAwesome
+# CLOSED FOR BUSINESS
 
-Font Awesome for the Rails asset pipeline. Doesn't depend on SASS or LESS and properly generates digests using the `asset_path` method.
+This gem is deprecated. Please feel free to continue to use existing versions, but please switch to the [font-awesome-rails][newgem] gem at your convenience.
 
-## Installation
+For more information, see [#6](https://github.com/balexand/font_awesome/issues/4).
 
-Add this line to your application's Gemfile:
+## Please open all future issues, send all future pull requests and direct all future inquiries to [font-awesome-rails][newgem].
 
-```ruby
-gem 'font_awesome', '~> 3.0'
-```
-
-Or if you prefer Font Awesome 2.0, use:
-
-```ruby
-gem 'font_awesome', '~> 2.0'
-```
-
-And then execute:
-
-    $ bundle
-
-## Usage
-
-Just require it at the top of your CSS file:
-
-```css
-/*
- *= require font-awesome
- */
-```
-
-Then insert an icon in your HTML:
-
-```html
-<i class="icon-camera-retro"></i>
-```
-
-Check out the [Font Awesome website](http://fortawesome.github.com/Font-Awesome/) for details.
-
-## Versioning
-
-The versioning of this gem roughly tracks the versioning of Font Awesome starting at 2.0. In order to accomodate patches to this gem that don't package a new version of Font Awesome, versions are calculated [like this](https://github.com/balexand/font_awesome/blob/master/lib/font_awesome/version.rb). For example, version `3.1.0` of this gem packages Font Awesome `3.0.1`.
-
-## Modifications
-
-I've made the following minimal changes the Font Awesome code:
-
-1. Use the `asset_path` helper so that assets are loaded from the correct path and digests are generated.
-2. ~~Remove the `svgz` font declaration until the Font Awesome maintainer adds the file ([see issue](https://github.com/FortAwesome/Font-Awesome/issues/233)).~~
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+[newgem]: https://github.com/bokmann/font-awesome-rails
